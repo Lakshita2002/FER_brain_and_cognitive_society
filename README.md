@@ -12,7 +12,7 @@ Normalization is performed on the cropped and rotated images to equalize the int
 ## Downsampling
 The images are downsampled to 32x32 pixels
 ## CNN Model (Keras implementation)
-2 convolutional layers with ReLU activation and 2 max pooling layers are used. The output is then flattened into a 1600x1 vector and connected to an ANN, the output layer of which uses a softmax activation.
+2 convolutional layers with ReLU activation and 2 max pooling layers are used. The output is then flattened into a 1600x1 vector and connected to an output which uses a softmax activation.
 ## Discrete Hyperparameters
 We have used momentum optimiser, binary cross entropy function and accuracy as metrics. We have used ten cross validation method for evaluation of our model.
 ## Continuous Hyperparameters
