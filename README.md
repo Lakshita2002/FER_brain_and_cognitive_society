@@ -8,9 +8,7 @@ Detector and Predictor variables from the dlib library were used to identify fro
 The eye landmark features were then used to align the faces horizontally for easy cropping. The images in the training set are randomly flipped and rotated to increase the data set.
 ## Normalization
 Normalization is performed on the cropped and rotated images to equalize the intensities. We have used the z-score normalization method here. The formula for the same is:
-'''bash
 [(value - mean)/standard deviation]
-'''
 ## Downsampling
 The images are downsampled to 32x32 pixels
 ## CNN Model (Keras implementation)
