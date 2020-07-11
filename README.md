@@ -15,7 +15,6 @@ _HOW_ : With help of Detector and Predictor variables from the dlib library 68 l
 1. **Downsampling** : The images are downsampled to 32x32 pixels 
 1. **Data Augmentation**: The images in the training set are randomly flipped and rotated to increase the data set inorder to avoid overfitting on small data.
 
----
 
 ## CNN Model (Keras implementation)
 * **Architecture** 2 convolutional layers with ReLU activation and 2 max pooling layers are used. The output is then flattened into a 1600x1 vector and connected to an output which uses a softmax activation.
