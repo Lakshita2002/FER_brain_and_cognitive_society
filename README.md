@@ -25,6 +25,6 @@ _HOW_ : With help of Detector and Predictor variables from the dlib library 68 l
 Batch size is 16, learning rate (eta) is 0.001 and no. of epochs are 80 to 100.
 
 ## Architecture of The Model
-![Alt text](model.png?raw=true "Title")
+![](images/model.png)
 
 
