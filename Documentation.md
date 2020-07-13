@@ -50,7 +50,7 @@ input_images-- array of images of shape (Number of images, pixels, pixels)\
 **_Returns_**:\
 _preprocessed_faces_ -- array of images after preprocessing (Number of images, pixels, pixels)
 
-## Functions used
+## `Functions used`
 _Function:_ `eye_centers(landmark)`<br>
 __To find the center of the eye in the image__<br>
 _landmark_ -- 6 landmark points around the eyes<br>
