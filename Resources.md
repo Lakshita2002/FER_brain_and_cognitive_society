@@ -2,9 +2,11 @@
 
 [Git resources](https://github.com/anas-899/facial-expression-recognition-Jaffe)
 
-[mlxtend Library](http://rasbt.github.io/mlxtend/installation/)
+[Library (mlxtend) ](http://rasbt.github.io/mlxtend/installation/)
 
 ## Datasets:
 [JAFFE](https://zenodo.org/record/3451524#.Xr0QGxMzbVo)
+
 [CK+ Cohn-Kanade (CK and CK+) database Download Site](https://www.kaggle.com/shawon10/ckplus)
+
 [FER2013](https://www.kaggle.com/c/challenges-in-representation-learning-facial-expression-recognition-challenge/data)
