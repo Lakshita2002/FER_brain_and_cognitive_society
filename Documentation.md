@@ -96,3 +96,18 @@ _std_dev_ -- standard deviation of imagedata array<br>
 
 __Returns:__ `(normalised_images)`<br>
 __normalised_images__ -- array of normalised and resized images<br>
+
+## 'Model Architecture'
+_Function:_ ` recog_model(input_shape)`<br>
+__Deep Neuarl Network architecture (CNN - structure) has been used to train our model__
+After the Data Augmentation the images have size of (48,48,1). The model is built using keras. It consists of 2 convolutional layers and 2 Max pooling layers in order conv1 -> maxpool1 -> conv2 -> maxpool2.
+Convolutional layers have the activation relu,after maxpool2 it is flattened into a 1600 dimensional vector and it’s directly connected to output layer with softmax activation.
+The hyperparameters in the model are batch size = 16,learning_rate = 0.001,epochs = 80 to 120. The model uses momentum optimizer and binary cross entropy as loss function with accuracy as metrics and it is evaluated using a ten fold cross validation method.
+
+**_Input_** : <br>
+_inputshape_ -- array of preprocessed images of shape (h,w,1)<br>
+
+__Returns:__ `(model)`<br>
+__model__ -- an instance of the compiled model with the architecture decribed<br>
+
+
