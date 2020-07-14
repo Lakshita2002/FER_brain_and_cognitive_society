@@ -97,7 +97,7 @@ _std_dev_ -- standard deviation of imagedata array<br>
 __Returns:__ `(normalised_images)`<br>
 __normalised_images__ -- array of normalised and resized images<br>
 
-## 'Model Architecture'
+## `Model Architecture`
 _Function:_ ` recog_model(input_shape)`<br>
 __Deep Neuarl Network architecture (CNN - structure) has been used to train our model__
 After the Data Augmentation the images have size of (48,48,1). The model is built using keras. It consists of 2 convolutional layers and 2 Max pooling layers in order conv1 -> maxpool1 -> conv2 -> maxpool2.
