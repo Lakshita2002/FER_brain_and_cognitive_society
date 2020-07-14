@@ -6,8 +6,8 @@
 * openCV
 
 ## Datasets Used
-* JAFFE   : No of pictures:___ ,  Link of dataset
-* Ck-plus : No of pictures: ___ , Link of dataset
+* JAFFE   : No of images: 213 [Link of dataset](https://www.kaggle.com/andrewmvd/japanese-female-facial-expression-dataset-ja)
+* Ck-plus : No of images: 981 [Link of dataset](https://www.kaggle.com/shawon10/ckplus)
 
 ## Steps implemented  [Link of implemented Research Paper](https://link.springer.com/article/10.1007/s00371-019-01627-4)
 ## `Image Loading` 
