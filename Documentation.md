@@ -1,4 +1,4 @@
-# Documnetation
+# Documentation
 ## Libraries Used
 * tensorflow
 * keras
