@@ -30,7 +30,7 @@ __To find the centers of the eyes in the image__<br>
 **_Input_** : <br>
 _landmark_ --- 68 landmarks detected on the face image using extract_face_landmarks <br>
 
-__Returns:__ `(point1, point2)`<br>
+**_Returns:_** `(point1, point2)`<br>
 _point1_ -- center of right eye :mean of 6 landmark points around the right eye: 36-41<br>
 _point2_ -- center of left eye :mean of 6 landmark points around the left eye 42-47<br><br>
 
@@ -44,20 +44,20 @@ Using the degrees conversion function `math.degrees()` we then convert it into d
 _point1_ -- center of right eye<br>
 _point2_ -- center of left eye<br>
 
-__Returns:__ `(angle_d)`<br>
+**_Returns:_** `(angle_d)`<br>
 _angle_d_ -- angle in degrees with the horizontal<br>
 
 
 ## `Image Rotation :function_3 used in preprocessing `
 _Function_ : `rotate_image(image,angle)`<br>
-**Corrects the tilt of a rotated image given the angle(degrees) to be rotated **<br>
+**Corrects the tilt of a rotated image given the angle(degrees) to be rotated**<br>
 
 **_Input_** : <br>
 _image_ -- image to be rotated in (pixels,pixels) shape<br>
 _angle_ -- output of _find angle_ function :angle required to align the image horizontally<br>
 
 **_Returns_**:<br>
-perfectly Horizontal image<br>
+Perfectly horizontal image<br>
 
 ## `Preprocessing` [Reference repository Link](https://github.com/anas-899/facial-expression-recognition-Jaffe)
 _Function_ : `preprocessing(input_images)`<br>
@@ -94,8 +94,8 @@ _imagedata_ -- array of preprocessed images of shape (m,h,w)<br>
 _mean_ -- mean of imagedata array<br>
 _std_dev_ -- standard deviation of imagedata array<br>
 
-__Returns:__ `(normalised_images)`<br>
-__normalised_images__ -- array of normalised and resized images<br>
+**_Returns:_** `(normalised_images)`<br>
+_normalised_images_ -- array of normalised and resized images<br>
 
 ## `Model Architecture`
 _Function:_ ` recog_model(input_shape)`<br>
@@ -109,7 +109,7 @@ The model uses momentum optimizer and categorical cross entropy as loss function
 _inputshape_ -- array of preprocessed images of shape (h,w,1)<br>
 
 __Returns:__ `(model)`<br>
-__model__ -- an instance of the compiled model with the architecture decribed<br>
+_model_ -- an instance of the compiled model with the architecture decribed<br>
 
 ## 10 fold cross validation `Mean Accuracy and Standard Deviation`<br>
 |     |JAFFE 7 classes|JAFFE 6 classes|CK+ 7 classes<br>(327)|CK+ 6 classes<br>(309)|JAFFE & CK+<br>6 classes|
