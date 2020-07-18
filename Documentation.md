@@ -6,8 +6,8 @@
 * openCV
 
 ## Datasets Used
-* JAFFE   : No of images: 213 [Link of dataset](https://www.kaggle.com/andrewmvd/japanese-female-facial-expression-dataset-ja)
-* Ck-plus : No of images: 981 [Link of dataset](https://www.kaggle.com/shawon10/ckplus)
+* JAFFE   : No of images: 213 [Link to dataset](https://www.kaggle.com/andrewmvd/japanese-female-facial-expression-dataset-ja)
+* Ck-plus : No of images: 981 [Link to dataset](https://www.kaggle.com/shawon10/ckplus)
 
 ## Steps implemented  [Link of implemented Research Paper](https://link.springer.com/article/10.1007/s00371-019-01627-4)
 ## `Image Loading` 
@@ -111,4 +111,14 @@ _inputshape_ -- array of preprocessed images of shape (h,w,1)<br>
 __Returns:__ `(model)`<br>
 __model__ -- an instance of the compiled model with the architecture decribed<br>
 
+## 10 fold cross validation `Mean Accuracy and Standard Deviation`<br>
+|     |JAFFE 7 classes|JAFFE 6 classes|CK+ 7 classes<br>(327)|CK+ 6 classes<br>(309)|JAFFE & CK+<br>6 classes|
+|---|---|---|---|---|---|
+|__Mean Accuracy__<br>__(Validation Set)__|93.46|92.34|90.54|92.24|   |
+|__Standard Deviation__|7.05|5.66|5.32|4.12|   |
 
+## `Cross Dataset Accuracies`<br>
+|     |JAFFE|CK+ (309)|
+|---|:---:|:---:|
+|__JAFFE__|-|40.64|
+|__CK+ (309)__|30.56|-|
