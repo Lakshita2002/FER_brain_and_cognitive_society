@@ -114,11 +114,9 @@ __model__ -- an instance of the compiled model with the architecture decribed<br
 ## 10 fold cross validation `Mean Accuracy and Standard Deviation`<br>
 |     |JAFFE 7 classes|JAFFE 6 classes|CK+ 7 classes<br>(327)|CK+ 6 classes<br>(309)|JAFFE & CK+<br>6 classes|
 |---|---|---|---|---|---|
-|__Mean Accuracy__<br>__(Validation Set)__|93.46|92.34|90.54|92.24|   |
-|__Standard Deviation__|7.05|5.66|5.32|4.12|   |
+|__Mean Accuracy__<br>__(Validation Set)__|93.46%|92.34%|90.54%|92.24%|90.45%|
+|__Standard Deviation__|7.05|5.66|5.32|4.12|4.41|
 
 ## `Cross Dataset Accuracies`<br>
-|     |JAFFE|CK+ (309)|
-|---|:---:|:---:|
-|__JAFFE__|-|40.64|
-|__CK+ (309)__|30.56|-|
+_40.64%_ when __trained on JAFFE__ and __tested on CK+ (309)__<br>
+_30.56%_ when __trained on CK+ (309)__ and __tested on JAFFE__
